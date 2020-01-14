@@ -43,7 +43,7 @@ class PokemonPage extends React.Component {
         "name": `${newPokemon.name}`,
         "stats": [
           {
-            "value": `${newPokemon.hp}`,
+            "value": `${parseInt(newPokemon.hp)}`,
             "name": "hp"
           }
         ],
